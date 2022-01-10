@@ -1,0 +1,180 @@
+.obj-row {
+    background-color: #f45454;
+}
+
+.obj-row:hover {
+    background-color: burlywood;
+}
+
+.obj-item {
+    padding: 10px;
+}
+
+.not-found {
+    text-align: center;
+    font-size: 7rem;
+    color: #f00;
+    margin: 5rem;
+    padding: 2rem;
+    background-color: darkgray;
+    border-radius: 2rem;
+}
+
+.book-obj {
+    width: 50rem;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    align-content: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn-submit{
+    width: 50%;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: 0.2rem solid darkcyan;
+}
+
+.btn{
+    background-color: darkcyan;
+}
+
+.btn-submit:hover {
+    width: 50%;
+    background-color: darkcyan;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: 0.2rem solid darkcyan;
+}
+
+.btn-delete {
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    border: 1px solid #f00;
+}
+
+.btn-delete:hover {
+    background-color: #f00;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    border: 0.1px solid #f00;
+}
+
+.input-group {
+    width: 100%;
+    margin: 1rem;
+    margin-left: 1px;
+    background-color: darkcyan;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+.input-label {
+    width: 15%;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 85%;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    border: 1px solid white;
+}
+
+.input-field[type=text]:focus {
+    width: 85%;
+    padding: 0.8rem;
+    outline: 0.1rem solid green;
+    border-radius: 0.2rem;
+}
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+tr:nth-of-type(odd) { 
+  background: #555;
+  color: white;  
+}
+
+tr:nth-of-type(even) { 
+  background: #f1f1f1;  
+}
+
+th { 
+  background: darkcyan; 
+  color: white; 
+  font-weight: bold; 
+}
+
+td, th { 
+  padding: 6px; 
+  border: 2px solid #ccc; 
+  text-align: left; 
+}
+
+.navbar {
+    padding: 24px 0px;
+}
+
+.logo {
+    width: 50%;
+    text-align: left;
+}
+
+.search-container {
+    width: 50%;
+    text-align: right;
+    border: 0.1px solid darkcyan;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: darkcyan;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.create {
+    width: 100%;
+    padding: 13px 0px;
+    text-align: center;
+}
