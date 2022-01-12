@@ -54,6 +54,7 @@
 
     <div class="container">
         <div class="row">
+            <h1 > Showing All Data: </h1>
             <table>
                 <tr>
                     <th>Id</th>
