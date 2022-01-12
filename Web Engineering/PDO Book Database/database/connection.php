@@ -1,10 +1,12 @@
 <?php
 function connect_db()
 {
-    $host = "127.0.0.1";
-    $username = "root";
-    $password = "";
-    $dbname = "bookstore";
+    $host = "sql6.freesqldatabase.com";
+    $username = "sql6465206";
+    $password = "QfaFhGgCLP";
+    $dbname = "sql6465206";
+    $port = "3306";
+    
     try {
         $dsn ="mysql:host=$host;dbname=$dbname";
         $conn = new PDO($dsn, $username, $password);
