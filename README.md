@@ -1,6 +1,6 @@
 # CSE4Y2S_Lab
 
-My 4th Year 1st Semester Lab courses.
+My 4th Year 2nd Semester Lab courses.
 
 i) Artificial Intellegence
 
