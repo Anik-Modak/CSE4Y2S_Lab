@@ -1,6 +1,6 @@
 # Cryptography and Network Security
 
-			#Lab Specification
+				# Lab Specification
 B.Sc. Engg. Part 4, Even Semester CSE-4232P (Cryptography and Network Security)
 
 
