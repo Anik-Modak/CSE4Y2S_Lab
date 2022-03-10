@@ -63,8 +63,9 @@ string arithmeticDecoding(double value)
 int main()
 {
     string str;
-    freopen("arithmetic_coding_in.txt");
-    cin>>str; //last character must be ~
+    ifstream fin;
+    fin.open("arithmetic_coding_in.txt");
+    fin>>str;//last character must be ~
 
     map<int, int> mp;
     for(int i=0; i<str.size(); i++)
